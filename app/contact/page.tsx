@@ -20,10 +20,10 @@ function ContactPage() {
               </div>
               <div className="text-center">
                 <h3 className="font-bold text-2xl mb-2 text-neutral-800 dark:text-neutral-100">
-                  Adres
+                  Adress
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-300 text-sm">
-                  Abcdef, 175. Sk. No:4, 06000 Ankara Merkez/Kırşehir
+                  Abcdef, 175. Sk. No:4, 06000  Merkez/Ankara, Turkey
                 </p>
               </div>
             </a>
@@ -39,7 +39,7 @@ function ContactPage() {
               </div>
               <div className="text-center">
                 <h3 className="font-bold text-2xl mb-2 text-neutral-800 dark:text-neutral-100">
-                  Telefon
+                  Phone
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-300 text-sm">
                   +90 551 234 56 78
