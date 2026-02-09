@@ -1,38 +1,4 @@
 
-export const bestGames = [
-  {
-    // category: "Futbol",
-    title: "FC26",
-    src: "https://hftwadbzxuaxhjzidagt.supabase.co/storage/v1/object/public/oyun-gorselleri/fc-26-47.avif",
-  },
-  {
-    // category: "Çift Kişilik",
-    title: "Split Fiction",
-    src: "https://hftwadbzxuaxhjzidagt.supabase.co/storage/v1/object/public/oyun-gorselleri/split-fiction-65.avif",
-  },
-  {
-    // category: "4 Kişilik",
-    title: "Call of Duty Black Ops 4",
-    src: "https://hftwadbzxuaxhjzidagt.supabase.co/storage/v1/object/public/oyun-gorselleri/call-of-duty-black-ops-4-37.avif",
-  },
-  {
-    // category: "Çift Kişilik",
-    title: "It Takes Two",
-    src: "https://hftwadbzxuaxhjzidagt.supabase.co/storage/v1/object/public/oyun-gorselleri/it-takes-two-51.webp",
-  },
-
-  {
-    // category: "Çift Kişilik",
-    title: "Mortal Kombat 11",
-    src: "https://hftwadbzxuaxhjzidagt.supabase.co/storage/v1/object/public/oyun-gorselleri/mortal-kombat-11-55.webp",
-  },
-  {
-    // category: "4 Kişilik",
-    title: "Overcooked! 2",
-    src: "https://hftwadbzxuaxhjzidagt.supabase.co/storage/v1/object/public/oyun-gorselleri/overcooked2-60.avif",
-  },
-];
-
 export const gamesNames = ["Mortal Kombat XL",
   "FC 25",
   "Unravel Two",

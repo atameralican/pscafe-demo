@@ -1,15 +1,12 @@
+import PopularGames from "@/components/PopularGames/popular-games";
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
-import { CardSlider, Carousel } from "@/components/ui/apple-cards-carousel";
 import { Card } from "@/components/ui/card";
 import { LayoutTextFlip } from "@/components/ui/layout-text-flip";
 import { SplineScene } from "@/components/ui/splite";
-import { bestGames, gamesNames, googleComments } from "@/constants/homePage";
-import Image from "next/image";
+import {  gamesNames, googleComments } from "@/constants/homePage";
 
 export default function Home() {
-  const cards = bestGames.map((card, index) => (
-    <CardSlider key={card.src} card={card} index={index} />
-  ));
+
   return (
     <div className="w-full h-full py-0 flex flex-col gap-y-5">
      
@@ -47,8 +44,7 @@ export default function Home() {
         </div>
 
         {/* OYUN RESİMLER SLİDER  */}
-        {/* <Carousel items={cards} /> */}
-        Resimler servis ile getirilecek carousele bağlanacak
+         <PopularGames  />
 
 {/* MÜŞTERİ YORUMLARI SLİDER */}
         <div className="h-full w-full mt-5">
