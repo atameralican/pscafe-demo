@@ -1,10 +1,8 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+
 import "./globals.css";
  import { MainNavbar } from "@/components/Navbar/main-navbar";
 import { ThemeProvider } from "@/components/Navbar/theme-provider";
  import MainFooter from "@/components/Footer/main-footer";
-// import GlobalLoadingOverlay from "@/components/useServiceHook/GlobalLoadingOverlay";
 
 
 const navItems = [

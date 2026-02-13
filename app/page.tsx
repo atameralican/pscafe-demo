@@ -3,13 +3,11 @@ import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import { Card } from "@/components/ui/card";
 import { LayoutTextFlip } from "@/components/ui/layout-text-flip";
 import { SplineScene } from "@/components/ui/splite";
-import {  gamesNames, googleComments } from "@/constants/homePage";
+import { gamesNames, googleComments } from "@/constants/homePage";
 
 export default function Home() {
-
   return (
     <div className="w-full h-full py-0 flex flex-col gap-y-5">
-     
       {/* ROBOT CARD */}
       <Card className="w-full h-auto md:h-[500px] bg-black/[0.96] relative overflow-hidden">
         <div className="flex flex-col md:flex-row h-full">
@@ -33,38 +31,36 @@ export default function Home() {
           </div>
         </div>
       </Card>
-   
 
-      {/* OYUN İSİMLERİ SLİDER */}
-        <div className="relative mx-4 my-4 flex flex-col items-center justify-center gap-4 text-center sm:mx-0 sm:mb-0 sm:flex-row">
-          <LayoutTextFlip
-            text="The Newest and Best Games Are Here "
-            words={gamesNames}
-          />
-        </div>
+      {/* GAME NAMES SLİDER */}
+      <div className="relative mx-4 my-4 flex flex-col items-center justify-center gap-4 text-center sm:mx-0 sm:mb-0 sm:flex-row">
+        <LayoutTextFlip
+          text="The Newest and Best Games Are Here "
+          words={gamesNames}
+        />
+      </div>
 
-        {/* OYUN RESİMLER SLİDER  */}
-         <PopularGames  />
+      {/* IMAGES SLİDER  */}
+      <PopularGames />
 
-{/* MÜŞTERİ YORUMLARI SLİDER */}
-        <div className="h-full w-full mt-5">
-          <AnimatedTestimonials
-            testimonials={googleComments}
-            subtitle="Thousands of players, thousands of stories. Behind every comment lies an unforgettable memory."
-            badgeText="Approved by Gamers"
-            trustedCompaniesTitle="Details that complete your gaming experience"
-            title="It's Not Just About the Game, It's About the Memories"
-            trustedCompanies={[
-              "VIP Rooms",
-              "Large Screens",
-              "Safe Environment",
-              "Premium Service",
-              "Unlimited Fun",
-              "Home Comfort",
-            ]}
-          />
-        </div>
-
+      {/* APPROVED BY GAMERS*/}
+      <div className="h-full w-full mt-5">
+        <AnimatedTestimonials
+          testimonials={googleComments}
+          subtitle="Thousands of players, thousands of stories. Behind every comment lies an unforgettable memory."
+          badgeText="Approved by Gamers"
+          trustedCompaniesTitle="Details that complete your gaming experience"
+          title="It's Not Just About the Game, It's About the Memories"
+          trustedCompanies={[
+            "VIP Rooms",
+            "Large Screens",
+            "Safe Environment",
+            "Premium Service",
+            "Unlimited Fun",
+            "Home Comfort",
+          ]}
+        />
+      </div>
     </div>
   );
 }

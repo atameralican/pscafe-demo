@@ -10,9 +10,7 @@ type PopularGamesProps = {
 function PopularGames() {
   const [data, setData] = useState<PopularGamesProps[]>([]);
   useEffect(() => {
-    fetch("/api/popularGames", {
-     // next: { revalidate: 60 }, //30 gn cache de tutmak için ikinci yöntem 
-    })
+    fetch("/api/popularGames", {    })
       .then((res) => res.json())
       .then((data) => setData(data))
       .catch(() => setData([])); 
