@@ -21,15 +21,13 @@ A modern, mobile-optimized, and fully functional web application designed for a 
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework:** Next.js 16.1.6  
-- **React:** 19.2.4  
-- **Language:** TypeScript (full type safety)  
-- **Styling:** Tailwind CSS 4  
-- **Animations:** Framer Motion 12.23.24  
+- **Frontend Framework:** Next.js 
+- **React** 
+- **Language:** TypeScript 
+- **Styling:** Tailwind CSS 
+- **Animations:** Framer Motion 
 - **UI Components:** Radix UI, Tabler Icons, Lucide Icons  
 - **Database:** Supabase (PostgreSQL)  
-- **3D Rendering:** Spline  
-- **Theme Management:** next-themes  
 
 ---
 

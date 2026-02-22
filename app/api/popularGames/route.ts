@@ -2,8 +2,6 @@ import { supabaseAdmin } from '@/lib/supabase-admin'
 import { NextResponse } from 'next/server'
 
 
-export const revalidate = 60 * 60 * 24 * 30; //cache for 30 days
-
 export async function GET(req: Request) {
   const { data, error } = await supabaseAdmin
     .from('games_list')
