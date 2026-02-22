@@ -4,6 +4,7 @@
 
 A modern, mobile-optimized, and fully functional web application designed for a PlayStation Cafe. Users can browse the game list, explore popular games, view location details, customer reviews, and more.
 
+Demo: [https://pscafe-demo.vercel.app/](https://pscafe-demo.vercel.app/).
 ---
 
 ## 🎮 Features
